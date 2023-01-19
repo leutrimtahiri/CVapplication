@@ -1,0 +1,62 @@
+.profile {
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    position: relative;
+
+}
+
+.profileTitle {
+    border-top: 1px solid #143e72;
+    color: #143e72;
+    border-bottom: 2px solid #143e72;
+    width: 100%;
+}
+
+.profile p {
+    width: 100%;
+}
+
+#editProfileBtn {
+    right: 20px;
+    position: absolute;
+    width: 100px;
+    background-color: #82AFB4;
+    color: #FFFFFF;
+    border: none;
+    height: 50px;
+    font-size: 15px;
+}
+
+.inputFormProfile {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 200px;
+    padding: 20px;
+    background-color: #82afb4;
+    position: absolute;
+    position: absolute;
+    z-index: 2;
+}
+
+.inputFormProfile label {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.inputFormProfile textarea {
+    margin-bottom: 20px;
+    height: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: none;
+    color: white;
+}
+
+.inputFormProfile button {
+    width: 100px;
+    background-color: #FFFFFF;
+    color: #82AFB4;
+    border: none;
+    height: 50px;
+}
